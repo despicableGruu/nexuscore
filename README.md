@@ -1,30 +1,29 @@
+#  NexusCore
 
-# LearnNet
-Inspired by [https://hackernoon.com/learn-blockchains-by-building-one-117428612f46](https://hackernoon.com/learn-blockchains-by-building-one-117428612f46) and started as a fork of [https://github.com/dvf/blockchain](https://github.com/dvf/blockchain)
+A Rust-based project for educational purposes, exploring fundamental blockchain concepts.
 
-For my own learning purposes, but could be fun to stand it up somewhere publicly and make it a blockchain learning experiment for others... more to come.
+**Features:**
 
-Shows example of  
-- Simple web server for API (Rocket)
-- Client HTTP using reqwest crate
-- Serde serialization and deserialization
-- Command-line parsing
+* API server (Rocket)
+* HTTP client (reqwest)
+* Data serialization (Serde)
+* CLI parsing
 
-### Dependenies
-- [Rust nightly](https://rustup.rs/)
-- [optional] [Just](https://crates.io/crates/just) (rust make-like command runner)  
+**Prerequisites:**
 
-### Build
-`just build`
+* Rust nightly (install via rustup)
+* (Optional) Just (build tool)
 
-### Test
-`just test`
 
-### Run
-`just run`  
+**Commands:**
 
-Then, use Postman or similar to interact.
+* Compile: `just build`
+* Test: `just test`
+* Run: `just run`
 
-## TODO
+Interact via tools like Postman after running.
 
-- Discover other nodes
+
+**Future Enhancements:**
+
+* Node discovery functionality
