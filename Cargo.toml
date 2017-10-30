@@ -4,8 +4,7 @@
 [package]
 name = "learnnet"
 version = "0.1.0"
-authors = ["stevenpack <steven.pack.code@gmail.com>"]
-
+authors = ["Brandon Richardson <brandon.richardson4328@outlook.com>"]
 [features]
 mining-tests = []
 integration = []
